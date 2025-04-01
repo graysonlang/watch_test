@@ -1,4 +1,4 @@
 .DS_Store
-/dist/
+/public/main.mjs
 /package-lock.json
 node_modules/
