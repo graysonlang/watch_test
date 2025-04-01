@@ -1,0 +1,16 @@
+{
+  "name": "watch_test",
+  "version": "0.0.0",
+  "description": "esbuild watch test",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs"
+  },
+  "repository": "github:graysonlang/watch_test",
+  "keywords": [],
+  "author": "Grayson Lang",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.1"
+  }
+}
