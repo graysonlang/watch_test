@@ -6,8 +6,12 @@ window.addEventListener("load", async () => {
     return image;
   }
   const imageFiles = [
-    'http://localhost/336699.png',
-    'http://localhost/6699cc.png',
+    './336699.png',
+    './6699cc.png',
+
+    // 'http://localhost/336699.png',
+    // 'http://localhost/6699cc.png',
+
     // "https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/inbox_fill_baseline_n900_20dp.png",
     // "https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/star_baseline_nv700_20dp.png",
   ];

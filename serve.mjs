@@ -32,10 +32,12 @@ const options = {
 try {
   const ctx = await esbuild.context(options);
   await ctx.watch();
-  // const { hosts, port } = await ctx.serve({
-  //   port: 80,
-  //   servedir: 'public',
-  // });
+  const { hosts, port } = await ctx.serve({
+    port: 80,
+    servedir: 'public',
+    disableRebuildOnRequest: true,
+    // onRequest: (args) => { console.dir(args) }
+  });
   exec(`open http://localhost`);
 } catch (err) {
   console.error(err);

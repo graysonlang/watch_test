@@ -11,6 +11,6 @@
   "author": "Grayson Lang",
   "license": "MIT",
   "devDependencies": {
-    "esbuild": "^0.25.1"
+    "esbuild": "^0.25.2"
   }
 }
